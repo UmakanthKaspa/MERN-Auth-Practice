@@ -19,3 +19,4 @@ Throughout this project, I had the opportunity to dive deep into several key asp
 - **Forgot Password Functionality**: Implemented password reset functionality via email.
 - **Change Password Mechanism**: Provided users with a secure way to change their passwords.
 - **Multi-factor Authentication (MFA)**: Experimented with OTP and one-time link verification options.
+using mern i want to build a project where usder can login and sign email verification forgetpassword and aslo can change password suing otp or one time link or using old password 
