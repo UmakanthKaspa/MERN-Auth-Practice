@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Email Verification Success</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet" />
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    #success {
+      position: relative;
+      height: 100vh;
+    }
+
+    .success {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      max-width: 410px;
+      width: 100%;
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 20px auto;
+    }
+
+    .success-emoji {
+      font-size: 100px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #2ecc71; /* Green color for success */
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    p {
+      color: #555555;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-top: 0;
+    }
+
+    a {
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #3498db;
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 40px;
+      color: #fff;
+      font-weight: 700;
+      -webkit-box-shadow: 0px 4px 15px -5px #3498db;
+      box-shadow: 0px 4px 15px -5px #3498db;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="success">
+    <div class="success">
+      <div class="success-emoji">&#x1F389;</div>
+      <h2>Email Verification Successful</h2>
+      <p>Congratulations! Your email has been successfully verified.</p>
+      <a href="http://localhost:3000/login">Go To Login Page</a>
+    </div>
+  </div>
+</body>
+</html>
